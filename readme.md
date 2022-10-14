@@ -8,8 +8,8 @@ vim configure.yaml
 
 # 安装依赖
 npm install
-# appservice配置文件
-npm start -- -r -u 'http://localhost:8008'
+# 生成appservice配置文件(matrix-bridge-oicq URL)
+npm start -- -r -u 'http://localhost:8090'
 ```
 
 添加到homeserver.yaml的app_service_config_files
