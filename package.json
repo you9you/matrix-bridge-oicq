@@ -1,0 +1,28 @@
+{
+  "name": "matrix-bridge-oicq",
+  "version": "0.0.1",
+  "description": "matrix-bridge-oicq",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./bin/matrix-bridge-oicq",
+    "dev": "node ./bin/matrix-bridge-oicq --debug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= v16"
+  },
+  "repository": "https://github.com/you9you/matrix-bridge-oicq",
+  "keywords": [
+    "matrix",
+    "bridge",
+    "oicq",
+    "qq"
+  ],
+  "bugs": "https://github.com/you9you/matrix-bridge-oicq/issues",
+  "author": "you9you",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "matrix-appservice-bridge": "^6.0.0",
+    "oicq": "^2.3.1"
+  }
+}

@@ -1,0 +1,6 @@
+port: 8090
+registration: 'oicq-registration.yaml'
+homeserverUrl: 'http://localhost:8008'
+domain: 'localhost'
+account: 147258369
+owner: '@root:localhost'
